@@ -1,0 +1,30 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "Dictionary system",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon ./Script/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-pokhrel/DictionarySystem.git"
+  },
+  "keywords": [
+    "dictionary",
+    "search",
+    "system"
+  ],
+  "author": "ashish pokhrel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish-pokhrel/DictionarySystem/issues"
+  },
+  "homepage": "https://github.com/ashish-pokhrel/DictionarySystem#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
