@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const dboperations = require('./msSqlServer/dboperations');
+
 
 app.get("/", (req, res) => {
     // const path = __dirname.split(`Script`);
@@ -8,10 +8,7 @@ app.get("/", (req, res) => {
     // console.dir(result)
     // res.sendFile(path[0] + "/Web/homePage.html");
 
-    dboperations.getList().then(result => {
-        console.log(result);
-        res.send(result);
-    })
+    
 
 });
 

@@ -15,3 +15,9 @@ async function getList() {
 module.exports = {
     getList: getList
 }
+
+// const dboperations = require('./msSqlServer/dboperations');
+// dboperations.getList().then(result => {
+//     console.log(result);
+//     res.send(result);
+// })
